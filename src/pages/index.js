@@ -1,5 +1,7 @@
-import React from "react"
+import React from 'react';
 
-export default function Home() {
-  return <div>Project Kiwi</div>
-}
+const Home = () => {
+  return <div>Project Kiwi</div>;
+};
+
+export default Home;
