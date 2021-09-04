@@ -63,6 +63,8 @@ Following technologies and libraries are used for the development of this websit
 
 - [React](https://reactjs.org/)
 - [Gatsby](https://www.gatsbyjs.com/)
+- [Firebase](https://firebase.google.com/)
+- [Material-Ui](https://material-ui.com/)
 - [Cloudflare](https://www.cloudflare.com/)
 - [Netlify](https://www.netlify.com/)
 
@@ -78,7 +80,7 @@ To setup the project locally the steps below.
 
 - [Node.js](https://nodejs.org/en/download/)
 
-  ```sh
+```sh
   # Homebrew
   brew install nodejs
 
@@ -94,7 +96,7 @@ To setup the project locally the steps below.
   # Windows (chocolaty)
   cinst nodejs.install
 
-  ```
+```
 
 - [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 

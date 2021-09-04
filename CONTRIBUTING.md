@@ -20,9 +20,9 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Step 1: Fork Repository
 ## Step 2: Git Set Up & Download
 # Clone the repo
-$ git clone https://github.com/<User-Name>/<Repo-Name>.git
+$ git clone https://github.com/<User-Name>/project-kiwi.git
 # Add upstream remote
-$ git remote add upstream https://github.com/dscnitrourkela/<Repo-Name>.git
+$ git remote add upstream https://github.com/dscnitrourkela/project-kiwi.git
 # Fetch and merge with upstream/main
 $ git fetch upstream
 $ git merge upstream/main
