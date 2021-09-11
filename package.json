@@ -1,7 +1,7 @@
 {
   "name": "project-kiwi",
   "private": true,
-  "description": "project-kiwi",
+  "description": "Leaderboard project for HackNITR 3.0",
   "version": "0.1.0",
   "license": "MIT",
   "keywords": [
@@ -11,6 +11,8 @@
     "website",
     "react",
     "gatsby",
+    "firebase",
+    "styled-components",
     "dscnitrourkela",
     "nitrourkela"
   ],
@@ -28,11 +30,16 @@
     "lint:find": "npx eslint 'src/**/*.{js,jsx,ts,tsx,json,md}'"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.4",
+    "firebase": "^9.0.2",
     "gatsby": "^3.12.1",
     "gatsby-plugin-robots-txt": "^1.6.10",
     "gatsby-plugin-styled-components": "^4.13.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.4",
@@ -49,9 +56,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/dscnitrourkela/project-kiwi"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/dscnitrourkela/project-kiwi/issues"
   }
 }
