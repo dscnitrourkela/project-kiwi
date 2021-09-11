@@ -1,9 +1,21 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "project-kiwi",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Leaderboard project for HackNITR 3.0",
   "version": "0.1.0",
-  "license": "0BSD",
+  "license": "MIT",
+  "keywords": [
+    "leaderboard",
+    "hacknitr",
+    "hackathon",
+    "website",
+    "react",
+    "gatsby",
+    "firebase",
+    "styled-components",
+    "dscnitrourkela",
+    "nitrourkela"
+  ],
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -11,21 +23,42 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "prettier:fix": "npx prettier --write ./src",
+    "prettier:check": "npx prettier --check ./src",
+    "lint:fix": "npx eslint --fix 'src/**/*.{js,jsx,ts,tsx,json,md}'",
+    "lint:find": "npx eslint 'src/**/*.{js,jsx,ts,tsx,json,md}'"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.4",
+    "firebase": "^9.0.2",
     "gatsby": "^3.12.1",
+    "gatsby-plugin-robots-txt": "^1.6.10",
+    "gatsby-plugin-styled-components": "^4.13.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "babel-eslint": "^10.1.0",
+    "eslint-config": "^0.3.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "2.3.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/dscnitrourkela/project-kiwi"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/dscnitrourkela/project-kiwi/issues"
   }
 }
