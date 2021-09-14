@@ -12,6 +12,8 @@ const firebaseConfig = {
   measurementId: process.env.MEASUREMENTID,
 };
 
+export const provider = new firebase.auth.GoogleAuthProvider();
+
 let instance = null;
 
 export default function getFirebase() {
