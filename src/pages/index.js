@@ -1,7 +1,13 @@
 import React from 'react';
 
+import App from './App';
+
 const Home = () => {
-  return <div>Project Kiwi</div>;
+  return (
+    <div>
+      <App />
+    </div>
+  );
 };
 
 export default Home;
