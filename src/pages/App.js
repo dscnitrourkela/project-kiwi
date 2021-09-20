@@ -5,13 +5,13 @@ import { CssBaseline } from '@material-ui/core';
 
 import theme from '../config/theme';
 
-import LoginCard from '../components/AuthSection/LoginCard';
+import ProfileCard from '../components/AuthSection/ProfileCard';
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <LoginCard />
+      <ProfileCard />
     </ThemeProvider>
   );
 };
