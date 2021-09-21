@@ -16,9 +16,11 @@ const LoginCard = () => {
         <Typography className={classes.title}>{title}</Typography>
         <Typography className={classes.description}>{description}</Typography>
       </div>
+
       <div className={classes.img}>
         <img src={image} />
       </div>
+
       <Button variant='contained' className={classes.button}>
         <Typography className={classes.buttonText}>{buttonText}</Typography>
       </Button>

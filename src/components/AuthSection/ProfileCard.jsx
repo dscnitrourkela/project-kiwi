@@ -2,8 +2,9 @@ import React from 'react';
 
 // Components
 import { makeStyles, Typography, IconButton, Avatar } from '@material-ui/core';
-import { Add, ExitToApp } from '@material-ui/icons';
+import { ExitToApp } from '@material-ui/icons';
 
+import { AddCode } from '.';
 
 const ProfileCard = () => {
   const classes = useStyles();
@@ -11,19 +12,19 @@ const ProfileCard = () => {
   return (
     <div className={classes.root}>
       <div className={classes.button}>
-        <IconButton className={classes.icon} aria-label='add' size='large'>
-          <Add />
-        </IconButton>
+        <AddCode />
         <IconButton className={classes.icon} aria-label='signout' size='large'>
           <ExitToApp />
         </IconButton>
       </div>
+
       <div className={classes.container}>
         <Avatar alt='name' src='profileImage.png' className={classes.avatar} />
         <Typography className={classes.name}>Sambit Sankalp</Typography>
         <div className={classes.nameDivider} />
         <Typography className={classes.description}>Points: 60 | Position: 65</Typography>
       </div>
+
       <div className={classes.container}>
         <Typography className={classes.eventTitle}>Events Attended</Typography>
         <div className={classes.eventDivider} />
@@ -66,8 +67,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   avatar: {
-    width: 200,
-    height: 200,
+    width: '200px',
+    height: '200px',
   },
   container: {
     display: 'flex',

@@ -1,17 +1,20 @@
 import React from 'react';
 
-import { ThemeProvider } from '@material-ui/styles';
+// ThemeProviders
+import { ThemeProvider } from '@material-ui/core/styles';
 import { CssBaseline } from '@material-ui/core';
 
+// theme
 import theme from '../config/theme';
 
-import ProfileCard from '../components/AuthSection/ProfileCard';
+// Components
+import { AuthSection } from '../components';
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <ProfileCard />
+      <AuthSection />
     </ThemeProvider>
   );
 };
