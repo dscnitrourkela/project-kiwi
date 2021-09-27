@@ -5,7 +5,7 @@ import { LoginCard, ProfileCard } from '.';
 
 const AuthComponent = () => {
   const [login] = useState(false);
-  return <div>{login ? <ProfileCard /> : <LoginCard />}</div>;
+  return <>{login ? <ProfileCard /> : <LoginCard />}</>;
 };
 
 export default AuthComponent;

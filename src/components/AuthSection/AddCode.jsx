@@ -18,7 +18,7 @@ const AddCode = () => {
   const classes = useStyles();
   const [open, setOpen] = useState(false);
 
-  const handleClickOpen = () => {
+  const handleOpen = () => {
     setOpen(true);
   };
 
@@ -27,7 +27,7 @@ const AddCode = () => {
   };
   return (
     <div>
-      <IconButton className={classes.icon} onClick={handleClickOpen} aria-label='add' size='large'>
+      <IconButton className={classes.icon} onClick={handleOpen} aria-label='add' size='large'>
         <Add />
       </IconButton>
 
