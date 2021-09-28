@@ -33,7 +33,7 @@
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "@material-ui/styles": "^4.11.4",
-    "firebase": "^9.0.2",
+    "firebase": "8.10.0",
     "gatsby": "^3.12.1",
     "gatsby-plugin-robots-txt": "^1.6.10",
     "gatsby-plugin-styled-components": "^4.13.0",
